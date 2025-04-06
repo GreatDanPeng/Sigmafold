@@ -1,6 +1,6 @@
 # SigmaFold
 
-**SigmaFold** is a PyTorch-based reproduction of **AlphaFold 1 & 3**, focusing on multimodal biomolecular structure prediction. It aims to unify protein folding, RNA structure modeling, and ligand docking into a single, differentiable, end-to-end learnable system. This repository reflects **Dan's understanding of AlphaFold 1 & 3**, with modularity and clarity prioritized for researchers, students, and bioAI practitioners.
+**SigmaFold** is a PyTorch-based reproduction of **AlphaFold 1 & 3**, focusing on multimodal biomolecular structure prediction. It aims to unify protein folding, RNA structure modeling, and ligand docking into a single, differentiable, end-to-end learnable system. This repository reflects **Dan's understanding of AlphaFold 1 & 3**.
 
 
 ## Project Intro
