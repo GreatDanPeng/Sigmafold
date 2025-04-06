@@ -1,11 +1,11 @@
 # SigmaFold
 
-**SigmaFold** is a PyTorch-based research framework inspired by **AlphaFold 3**, focusing on multimodal biomolecular structure prediction. It aims to unify protein folding, RNA structure modeling, and ligand docking into a single, differentiable, end-to-end learnable system. This repository reflects **Dan's understanding of AlphaFold 3**, with modularity and clarity prioritized for researchers, students, and bioAI practitioners.
+**SigmaFold** is a PyTorch-based reproduction of **AlphaFold 1 & 3**, focusing on multimodal biomolecular structure prediction. It aims to unify protein folding, RNA structure modeling, and ligand docking into a single, differentiable, end-to-end learnable system. This repository reflects **Dan's understanding of AlphaFold 1 & 3**, with modularity and clarity prioritized for researchers, students, and bioAI practitioners.
 
 
 ## Project Intro
 
-- Reproduce core architectural ideas behind AlphaFold 3
+- Reproduce core architectural ideas behind AlphaFold 1 and AlphaFold 3
 - Support proteins, nucleic acids, and small molecules
 - Enable ligand docking through joint attention and coordinate prediction
 - Provide a training-ready and extensible framework for future development
@@ -18,17 +18,6 @@
 - Structure module with SE(3)-equivariant reasoning
 - Ligand-protein binding modeling
 - Dataset loaders for PDB, Rfam, ZINC, and more (WIP)
-
-
-## Repository Structure
-
-- `models/`: Backbone modules (embedding, Evoformer, structure, docking)
-- `configs/`: Hyperparameters, model settings
-- `data/`: Preprocessing scripts and loaders
-- `train.py`: Training script
-- `eval.py`: Benchmarking and metrics
-- `README.md`: Project overview
-
 
 ## Setup Instructions
 
